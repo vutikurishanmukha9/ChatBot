@@ -45,11 +45,6 @@ llm-chatbot/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
-yaml
-Copy
-Edit
-
 ---
 
 ## Prerequisites
