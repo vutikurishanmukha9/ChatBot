@@ -1,0 +1,5 @@
+{
+  "prompt": "<|Human|> {{ intent }}<|Assistant|>",
+  "max_tokens_to_sample": 500,
+  "temperature": 0.7
+}
