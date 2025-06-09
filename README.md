@@ -16,36 +16,36 @@ A production-ready FastAPI service that answers user queries and generates engin
 
 ## Repository Structure
 
-llm-chatbot/
+chatbot/
 ├── app/
-│ ├── main.py
-│ ├── orchestrator.py
-│ ├── config.py
-│ ├── db/
-│ │ └── models.py
-│ ├── modules/
-│ │ ├── qa.py
-│ │ └── prompt_gen.py
-│ ├── adapters/
-│ │ ├── openai_adapter.py
-│ │ └── anthropic_adapter.py
-│ └── templates/
-│ ├── openai.json
-│ └── anthropic.json
+│   ├── main.py
+│   ├── orchestrator.py
+│   ├── config.py
+│   ├── db/
+│   │   └── models.py
+│   ├── modules/
+│   │   ├── qa.py
+│   │   └── prompt_gen.py
+│   ├── adapters/
+│   │   ├── openai_adapter.py
+│   │   └── anthropic_adapter.py
+│   └── templates/
+│       ├── openai.json
+│       └── anthropic.json
 ├── docker/
-│ ├── Dockerfile
-│ └── docker-compose.yml
+│   ├── Dockerfile
+│   └── docker-compose.yml
 ├── k8s/
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ └── ingress.yaml
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
 ├── tests/
-│ ├── test_main.py
-│ └── test_adapters.py
+│   ├── test_main.py
+│   └── test_adapters.py
 ├── .env.example
 ├── requirements.txt
 └── README.md
----
+
 
 ## Prerequisites
 
